@@ -1,4 +1,4 @@
-## Installing Owncloud server
+# Installing Owncloud server
 You can install the Owncloud server to share your files and data and control access. You should install the Owncloud server by using the ownCloud tarball, which is the most suitable and customizable installation option for production environments. 
 ### Before you begin
 You must have the following PHP versions and extensions available: 
@@ -31,3 +31,9 @@ gpg --verify owncloud-x.y.z.tar.bz2.asc owncloud-x.y.z.tar.bz2
 tar -xjf owncloud-x.y.z.tar.bz2
 unzip owncloud-x.y.z.zip
 ```
+6.	Copy the ownCloud directory to a destination folder. 
+When you are running the Apache HTTP server, you can install ownCloud in your Apache document root:
+```
+cp -r owncloud /path/to/webserver/document-root
+```
+where /path/to/webserver/document-root is replaced by the document root of your Web server.
