@@ -4,8 +4,9 @@ You can install the Owncloud server to share your files and data and control acc
 ### Before you begin
 You must have the following PHP versions and extensions available: 
 * PHP versions 5.6 and later, 7.0, 7.1, and 7.2
-* PHP extensions: See the list of PHP extensions and their functions at: https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html#prerequisites
-**Steps**
+* PHP extensions: See the list of PHP extensions and their functions at: 
+https://doc.owncloud.org/server/latest/admin_manual/installation/source_installation.html#prerequisites
+### Steps
 1.	Download the Owncloud tarball from the Owncloud website:
 https://owncloud.org/download/
 You can download either the tar.bz2 or .zip archive. 
