@@ -12,6 +12,7 @@ https://owncloud.com/download/#desktop-clients
    - Click **Next**. 
    - On the “Local Folder Option” screen, select to sync all of your files on the ownCloud server or select individual folders. 
    - Click **Connect**.
+   
 When the client successfully connects to your ownCloud server, the file synchronization begins and you can see the following two options:
 - one to connect to your ownCloud Web GUI
 - one to open your local folder
