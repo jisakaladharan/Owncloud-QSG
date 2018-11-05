@@ -2,6 +2,7 @@
 
 ## Installing the Oncloud server
 You can install the Owncloud server to share your files and data and control access. You should install the Owncloud server by using the ownCloud tarball, which is the most suitable and customizable installation option for production environments. 
+
 ### Before you begin
 You must have the following PHP versions and extensions available: 
 * PHP versions 5.6 and later, 7.0, 7.1, and 7.2
