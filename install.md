@@ -95,4 +95,8 @@ For more details, see https://doc.owncloud.org/server/latest/admin_manual/instal
 chown -R www-data:www-data /var/www/owncloud/
 ```
 2. Point your web browser to http://localhost/owncloud
-3. Enter your desired administrator’s username and password and click “Finish Setup”.
+3. Enter your desired administrator’s username and password and click **Finish Setup**.
+### After your finish
+Set up your ownCloud server for best performance and security. 
+https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html
+
