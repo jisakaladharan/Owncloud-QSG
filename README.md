@@ -78,6 +78,7 @@ service apache2 restart
 
 ## Enabling SSL
 You should use SSL/TLS to encrypt all of your server traffic, and to protect user’s logins and data in transit.
+
 ### Steps
 1. Enable the `ssl` module and the default site:
 ```
@@ -88,9 +89,11 @@ service apache2 reload
 
 ## Completing the installation of the Owncloud server
 You must complete the installation of the Owncloud server by running the Graphical Installation Wizard.
+
 ### About this task
 You can also use the command line with the occ command to complete this task.
 For more details, see https://doc.owncloud.org/server/latest/admin_manual/installation/command_line_installation.html
+
 ### Steps
 1. Temporarily change the ownership on your ownCloud directories to your HTTP user:
 ```
@@ -98,6 +101,7 @@ chown -R www-data:www-data /var/www/owncloud/
 ```
 2. Point your web browser to http://localhost/owncloud
 3. Enter your desired administrator’s username and password and click **Finish Setup**.
+
 ### After your finish
 Set up your ownCloud server for best performance and security. 
 https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wizard.html
@@ -105,11 +109,13 @@ https://doc.owncloud.org/server/latest/admin_manual/installation/installation_wi
 
 ## Adding a user account to OwnCloud server
 As an Owncloud administrator, you can create user accounts and add them to the Owncloud server.
+
 ### Steps
 1. Under **Administration**, click **System and domain settings**.  
 2. Login with your administrator user name and password. 
 3. Click **User: Add**  to create the users who have access to your OwnCloud server. 
 You can set the checkbox next to **Change Password for next login** to **true** for enabling users to create their own password. 
+
 ### Result
 By default, users can access the Owncloud server by using HTTP on a web browser. 
 
@@ -117,6 +123,7 @@ By default, users can access the Owncloud server by using HTTP on a web browser.
 You can use the OwnCloud Desktop Synchronization client to automatically synchronize your files between the ownCloud server and your local system. The ownCloud Desktop Synchronization client enables you to do the following: 
 - Specify one or more directories on your computer that you want to synchronize to the ownCloud server.
 - Always have the latest files synchronized, wherever they are located.
+
 ### Steps
 1. Download the Owncloud Desktop Synchronization client for your operating system from the following location: 
 https://owncloud.com/download/#desktop-clients
@@ -134,6 +141,7 @@ When the client successfully connects to your ownCloud server, the file synchron
 
 ## Connecting to the Owncloud server using a mobile client
 You can use the OwnCloud mobile app (iOS or Android) to automatically synchronize your files between the ownCloud server and your mobile phone. 
+
 ### Steps
 1. Download the OwnCloud mobile application from the AppStore on your iOS device or from the Google PlayStore on your Android device. 
 2. Open the application and enter the following details:
