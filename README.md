@@ -44,20 +44,20 @@ where /path/to/webserver/document-root is replaced by the document root of your 
 To configure the Apache web server, you need to create a configuration file and create a symlink to it.
 
 ### Steps
-1. Create a `/etc/apache2/sites-available/owncloud.conf` file with the following content:
+1. Create a `/etc/apache2/sites-available/owncloud.conf` file with the following content (replace the Directory and file paths with your file paths):
 ```
 Alias /owncloud "/var/www/owncloud/"
 Directory /var/www/owncloud/
-  Options +FollowSymlinks
-  AllowOverride All
-  IfModule mod_dav.c
-  Dav off
- IfModule
- SetEnv HOME /var/www/owncloud
- SetEnv HTTP_HOME /var/www/owncloud
+Options +FollowSymlinks
+AllowOverride All
+IfModule mod_dav.c
+Dav off
+IfModule
+SetEnv HOME /var/www/owncloud
+SetEnv HTTP_HOME /var/www/owncloud
 Directory
 ```
-Replace the Directory and file paths with your file paths.
+
 2. Create a symlink to the configuration file:
 ```
 ln -s /etc/apache2/sites-available/owncloud.conf /etc/apache2/sites-enabled/owncloud.conf
