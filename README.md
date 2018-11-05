@@ -1,5 +1,5 @@
 # Owncloud Quick Start Guide
-# Installing and configuring the Owncloud server
+
 ## Installing the Oncloud server
 You can install the Owncloud server to share your files and data and control access. You should install the Owncloud server by using the ownCloud tarball, which is the most suitable and customizable installation option for production environments. 
 ### Before you begin
@@ -39,8 +39,10 @@ When you are running the Apache HTTP server, you can install ownCloud in your Ap
 cp -r owncloud /path/to/webserver/document-root
 ```
 where /path/to/webserver/document-root is replaced by the document root of your Web server.
+
 ## Configuring the Apache Web Server
 To configure the Apache web server, you need to create a configuration file and create a symlink to it.
+
 ### Steps
 1. Create a `/etc/apache2/sites-available/owncloud.conf` file with the following content:
 ```
